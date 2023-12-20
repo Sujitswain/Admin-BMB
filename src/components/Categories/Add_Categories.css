@@ -1,0 +1,44 @@
+.Add_categories {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: calc(100vw - 24vw);
+    height: 94vh;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.AddCategories{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.AddCategories form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.AddCategories label {
+    margin-bottom: 10px;
+}
+
+.AddCategories input {
+    width: 100%;
+    padding: 8px;
+}
+
+.AddCategories button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.AddCategories button:hover {
+    background-color: #2980b9;
+}

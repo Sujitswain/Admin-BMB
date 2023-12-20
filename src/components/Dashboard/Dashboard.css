@@ -1,0 +1,56 @@
+.dashboard-container {
+    width: 18vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: blue;
+    position: sticky;
+    color: white;
+    position: relative;
+  }
+  
+  .dashboard-menu {
+    background-color: blue;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard-menu h2 {
+    display: flex;
+    margin-bottom: 50px;
+  }
+  
+  .dashboard-menu ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .dashboard-menu li {
+    margin-top: 30px;
+  }
+  
+  .dashboard-menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+  }
+  
+  .dashboard-content {
+    position: absolute;
+    right: 28%;
+    bottom: 2rem;
+    display: flex;
+  }
+
+  .dashboard-content button{
+    font-weight: 700;
+    margin: 0;
+    font-size: 1rem;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    background: black;
+    cursor: pointer;
+  }
+  

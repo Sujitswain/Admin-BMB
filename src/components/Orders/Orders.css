@@ -1,0 +1,112 @@
+.order_container {
+  width: calc(100vw - 22vw);
+  margin: 0 auto;
+  padding: 20px;
+  height: 94vh;
+  overflow: scroll;
+}
+  h2 {
+    text-align: center;
+  }
+  
+  .search-bar {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input {
+    flex: 1;
+    padding: 8px;
+  }
+  
+  .search-bar button {
+    background-color: #007bff;
+    color: white;
+    padding: 8px;
+    margin-left: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .orders-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .order {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    height: 24rem;
+    box-sizing: border-box;
+    position: relative;
+    overflow-wrap: break-word; 
+  }
+  .order-info {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  
+  .order:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .order-info {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .order-buttons {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    right: 0;
+    bottom: 5px;
+  }
+  
+  .order-buttons button {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 15px;
+    font-size: 14px;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  
+  .order-buttons button:hover {
+    background-color: #0056b3;
+  }
+  
+  .order-details-container {
+    width: 100%;
+  }
+  
+  .no-order-selected {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+    border-radius: 4px;
+  }
+  
+  .no-order-selected p {
+    margin: 0;
+  }
+  
+
+  @media screen and (min-width: 768px) {
+    .order {
+      width: calc(33.33% - 20px); /* Adjusted width for larger screens */
+    }
+  }

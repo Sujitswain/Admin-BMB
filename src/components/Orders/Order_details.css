@@ -1,0 +1,49 @@
+.order-details-main-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .order-details-main-container h3 {
+    color: #007bff;
+  }
+  
+  .order-details-main-container div {
+    margin-bottom: 10px;
+  }
+  
+  .order-details-main-container strong {
+    margin-right: 5px;
+  }
+  
+  .order-details-main-container select {
+    padding: 5px;
+  }
+  
+  .order-details-main-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .order-details-main-container li {
+    margin-bottom: 5px;
+  }
+  
+  .order-details-main-container button {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 15px;
+    font-size: 14px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .order-details-main-container button:hover {
+    background-color: #0056b3;
+  }
+  

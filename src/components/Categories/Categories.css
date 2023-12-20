@@ -1,0 +1,115 @@
+.categories-container {
+  width: calc(100vw - 22vw);
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  float: left; 
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.options h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.options button {
+  font-weight: 700;
+  margin: 0;
+  font-size: 0.8rem;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  background: black;
+  cursor: pointer;
+}
+
+.Add_Categories {
+  text-decoration: none;
+  color: white;
+  padding: 0.5rem 2rem;
+  background: greenyellow;
+  font-size: 16px;
+  margin: 2rem auto;
+  text-align: center;
+  width: 30%;
+}
+
+.Add_button{
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.loading-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.category-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.category-container {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.category-container:hover {
+  transform: scale(1.05);
+}
+
+.category-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.category-name {
+  padding: 10px;
+  text-align: center;
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.category-actions {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: #f4f4f4;
+}
+
+.category-actions a {
+  font-size: 1rem;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  background: blue;
+  padding: 0.5rem 1rem;
+  border-radius: 0.4rem;
+}
+
+.category-actions button {
+  font-size: 1rem;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  background: red;
+  padding: 0.5rem 1rem;
+  border-radius: 0.4rem;
+  border: none;
+}
+
+.category-actions a:hover {
+  text-decoration: underline;
+}
